@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		5A7092122516770A00948C85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7092112516770A00948C85 /* AppDelegate.swift */; };
 		5A7092142516770A00948C85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7092132516770A00948C85 /* SceneDelegate.swift */; };
-		5A7092162516770A00948C85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7092152516770A00948C85 /* ViewController.swift */; };
 		5A7092192516770A00948C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7092172516770A00948C85 /* Main.storyboard */; };
 		5A70921B2516771C00948C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A70921A2516771C00948C85 /* Assets.xcassets */; };
 		5A70921E2516771C00948C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A70921C2516771C00948C85 /* LaunchScreen.storyboard */; };
 		5A7092292516771C00948C85 /* NextFlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7092282516771C00948C85 /* NextFlixTests.swift */; };
 		5A7092342516771C00948C85 /* NextFlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7092332516771C00948C85 /* NextFlixUITests.swift */; };
+		5A70924225167F3100948C85 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A70924125167F3100948C85 /* UsersViewController.swift */; };
+		5A70924525171AE700948C85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A70924325171AE700948C85 /* ViewController.swift */; };
+		5A70924625171AE700948C85 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A70924425171AE700948C85 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		5A70920E2516770900948C85 /* NextFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7092112516770A00948C85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A7092132516770A00948C85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A7092152516770A00948C85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A7092182516770A00948C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A70921A2516771C00948C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A70921D2516771C00948C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		5A70922F2516771C00948C85 /* NextFlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextFlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7092332516771C00948C85 /* NextFlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextFlixUITests.swift; sourceTree = "<group>"; };
 		5A7092352516771C00948C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A70924125167F3100948C85 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		5A70924325171AE700948C85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A70924425171AE700948C85 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				5A7092112516770A00948C85 /* AppDelegate.swift */,
 				5A7092132516770A00948C85 /* SceneDelegate.swift */,
-				5A7092152516770A00948C85 /* ViewController.swift */,
 				5A7092172516770A00948C85 /* Main.storyboard */,
+				5A70924325171AE700948C85 /* ViewController.swift */,
+				5A70924425171AE700948C85 /* ViewController.xib */,
 				5A70921A2516771C00948C85 /* Assets.xcassets */,
 				5A70921C2516771C00948C85 /* LaunchScreen.storyboard */,
 				5A70921F2516771C00948C85 /* Info.plist */,
+				5A70924125167F3100948C85 /* UsersViewController.swift */,
 			);
 			path = NextFlix;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			files = (
 				5A70921E2516771C00948C85 /* LaunchScreen.storyboard in Resources */,
 				5A70921B2516771C00948C85 /* Assets.xcassets in Resources */,
+				5A70924625171AE700948C85 /* ViewController.xib in Resources */,
 				5A7092192516770A00948C85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A7092162516770A00948C85 /* ViewController.swift in Sources */,
+				5A70924225167F3100948C85 /* UsersViewController.swift in Sources */,
 				5A7092122516770A00948C85 /* AppDelegate.swift in Sources */,
+				5A70924525171AE700948C85 /* ViewController.swift in Sources */,
 				5A7092142516770A00948C85 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
