@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A0E4796252094CD00D88E61 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0E4795252094CD00D88E61 /* MovieGridCell.swift */; };
 		5A7092122516770A00948C85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7092112516770A00948C85 /* AppDelegate.swift */; };
 		5A7092142516770A00948C85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7092132516770A00948C85 /* SceneDelegate.swift */; };
 		5A7092192516770A00948C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7092172516770A00948C85 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		0AB3991E7E17DF5785C972CE /* Pods_NextFlix_NextFlixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextFlix_NextFlixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0E4795252094CD00D88E61 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		5A70920E2516770900948C85 /* NextFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7092112516770A00948C85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A7092132516770A00948C85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				5A70924125167F3100948C85 /* UsersViewController.swift */,
 				5AF39EFD2520072100039BE5 /* MovieDetailsViewController.swift */,
 				5AF39EFF2520420C00039BE5 /* MovieGridViewController.swift */,
+				5A0E4795252094CD00D88E61 /* MovieGridCell.swift */,
 			);
 			path = NextFlix;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				5A7092122516770A00948C85 /* AppDelegate.swift in Sources */,
 				5AF39EFE2520072100039BE5 /* MovieDetailsViewController.swift in Sources */,
 				5AF39F002520420C00039BE5 /* MovieGridViewController.swift in Sources */,
+				5A0E4796252094CD00D88E61 /* MovieGridCell.swift in Sources */,
 				5A70924525171AE700948C85 /* ViewController.swift in Sources */,
 				5A709248251732A200948C85 /* MovieCell.swift in Sources */,
 				5A7092142516770A00948C85 /* SceneDelegate.swift in Sources */,
